@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px 0 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#inputs-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#files {
+    max-width: 175px;
+}
+#drag-n-drop {
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#htmlFromFile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
